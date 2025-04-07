@@ -38,7 +38,7 @@
    &kp MINUS &kp LS(MINUS) &mmv MOVE_LEFT &mmv MOVE_UP &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans  &trans   &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp RS(EQUAL) &kp EQUAL
 // ├───────┼───────┼───────┼───────┼───────┼───────┼───────┤    ├───────┼───────┼───────┼───────┼───────┼───────┼───────┤
 // │  TRNS │   [   │   ]   │ S([)  │ S(])  │  MB2  │ CALC  │    │  TRNS │ PSCRN │  MB1  │ SCRLD │ SCRLU │  DEL  │  TRNS │
-   &trans   &kp LBKT &kp RBKT &kp LS(LBKT) &kp LS(RBKT) &mkp MB2 &kp K_CALC  &trans   &kp PSCRN &mkp MB1 &msc SCRL_DOWN &msc SCRL_UP &kp DEL &trans
+   &trans   &kp LBKT &kp RBKT &kp LS(LBKT) &kp LS(RBKT) &mkp MB2 &kp K_CALC  &kp PSCRN &mkp MB1 &msc SCRL_DOWN &msc SCRL_UP  &trans &kp DEL &trans
 // ├───────┼───────┼───────┼───────┼───────┼───────┼───────┤    ├───────┼───────┼───────┼───────┼───────┼───────┼───────┤
 // │  TRNS │  TRNS │  TRNS │  TRNS │  MO2  │  TRNS │ ENTER │    │  TRNS │  TRNS │  TRNS │  TRNS │  TRNS │  TRNS │  TRNS │
    &trans   &trans   &trans   &trans   &mo 2   &trans   &kp ENTER   &trans   &trans   &trans   &trans   &trans   &trans   &trans
