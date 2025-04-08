@@ -2,7 +2,6 @@
 #include "nyx44_layouts.dtsi"
 / {
     chosen {
-        zmk,matrix-transform = &default_transform;
         zmk,kscan = &kscan;
         zmk,physical-layout = &nyx44_physical_layout;
     };
