@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <nyx44_layouts.dtsi>
+#include "nyx44_layouts.dtsi"
 / {
     chosen {
         zmk,matrix-transform = &default_transform;
