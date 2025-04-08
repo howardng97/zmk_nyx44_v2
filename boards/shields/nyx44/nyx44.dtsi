@@ -32,3 +32,7 @@
         >;
     };
 };
+&nyx44_physical_layout {
+    kscan = <&kscan>; // Label of the kscan node this layout uses
+    transform = <&default_transform>; // Label of the matrix transform this layout uses
+};
